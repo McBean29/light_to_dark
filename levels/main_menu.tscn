@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=2]
+[gd_scene load_steps=13 format=2]
 
 [ext_resource path="res://assets/menus/right.png" type="Texture" id=1]
 [ext_resource path="res://assets/menus/exit.png" type="Texture" id=2]
@@ -6,11 +6,22 @@
 [ext_resource path="res://assets/menus/main_menu_bg.png" type="Texture" id=4]
 [ext_resource path="res://assets/menus/logo.png" type="Texture" id=5]
 [ext_resource path="res://levels/main_menu.gd" type="Script" id=6]
+[ext_resource path="res://assets/menus/game_jam_logo.png" type="Texture" id=7]
+[ext_resource path="res://fonts/Roboto-Black.ttf" type="DynamicFontData" id=8]
+[ext_resource path="res://assets/menus/And Then We Left.mp3" type="AudioStream" id=9]
 
 [sub_resource type="DynamicFont" id=1]
 size = 46
 outline_color = Color( 0, 0, 0, 1 )
 font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 46
+font_data = ExtResource( 3 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 20
+font_data = ExtResource( 8 )
 
 [node name="main_menu" type="Control"]
 anchor_right = 1.0
@@ -33,25 +44,48 @@ margin_bottom = 277.0
 texture = ExtResource( 5 )
 
 [node name="btn_start" type="Button" parent="."]
-margin_left = 426.0
-margin_top = 309.0
-margin_right = 611.0
-margin_bottom = 415.0
+margin_left = 361.0
+margin_top = 286.0
+margin_right = 619.0
+margin_bottom = 392.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 1 )
 text = "Start Game"
 icon = ExtResource( 1 )
 flat = true
-icon_align = 1
 
 [node name="btn_quit" type="Button" parent="."]
-margin_left = 438.0
-margin_top = 415.0
-margin_right = 580.0
-margin_bottom = 521.0
+margin_left = 407.0
+margin_top = 387.0
+margin_right = 574.0
+margin_bottom = 493.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 3 )
 text = "Quit"
 icon = ExtResource( 2 )
 flat = true
-icon_align = 1
+
+[node name="Label" type="Label" parent="."]
+margin_left = 18.0
+margin_top = 351.0
+margin_right = 253.0
+margin_bottom = 383.0
+custom_fonts/font = SubResource( 2 )
+text = "My entry for Open Jam 2022:"
+
+[node name="TextureRect" type="TextureRect" parent="."]
+margin_left = 7.0
+margin_top = 385.0
+margin_right = 423.0
+margin_bottom = 592.0
+texture = ExtResource( 7 )
+expand = true
+stretch_mode = 5
+
+[node name="menu_bgm" type="AudioStreamPlayer2D" parent="."]
+position = Vector2( 506, 274 )
+stream = ExtResource( 9 )
+autoplay = true
 
 [connection signal="pressed" from="btn_start" to="." method="_on_btn_start_pressed"]
+[connection signal="pressed" from="btn_quit" to="." method="_on_btn_quit_pressed"]

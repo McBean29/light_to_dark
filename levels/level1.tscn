@@ -122,7 +122,7 @@ margin_right = 486.0
 margin_bottom = 34.0
 text = "I better head to a nearby cave. Don't want to be caught out again!"
 
-[node name="ambience" type="AudioStreamPlayer2D" parent="."]
+[node name="ambience" type="AudioStreamPlayer" parent="HUD/pp_intro"]
 stream = ExtResource( 7 )
 autoplay = true
 

@@ -21,6 +21,7 @@ _global_script_class_icons={
 [application]
 
 config/name="Light in the Dark"
+run/main_scene="res://levels/main_menu.tscn"
 config/icon="res://icon.png"
 
 [autoload]
