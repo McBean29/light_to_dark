@@ -18,6 +18,7 @@ height = 0.0
 script = ExtResource( 2 )
 
 [node name="a2d_battery" type="Area2D" parent="."]
+collision_layer = 0
 
 [node name="AnimatedSprite" type="AnimatedSprite" parent="a2d_battery"]
 frames = SubResource( 1 )

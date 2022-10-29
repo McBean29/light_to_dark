@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Exploring a cave.mp3-82a025f64d4088beecb663477ad0179b.mp3str"
+
+[deps]
+
+source_file="res://assets/levels/cave/Exploring a cave.mp3"
+dest_files=[ "res://.import/Exploring a cave.mp3-82a025f64d4088beecb663477ad0179b.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

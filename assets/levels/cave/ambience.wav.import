@@ -1,0 +1,23 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/ambience.wav-ccbd2bf5e5890b6c389f7a9eb85767d6.sample"
+
+[deps]
+
+source_file="res://assets/levels/cave/ambience.wav"
+dest_files=[ "res://.import/ambience.wav-ccbd2bf5e5890b6c389f7a9eb85767d6.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=0
