@@ -11,3 +11,8 @@ func _ready():
 
 func _on_lava_body_entered(body):
 	get_tree().change_scene("res://levels/game_over_lava.tscn")
+
+
+func _on_cave_exit_body_entered(body):
+	get_tree().change_scene("res://levels/cave2.tscn")
+	pass # Replace with function body.

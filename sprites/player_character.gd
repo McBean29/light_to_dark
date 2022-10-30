@@ -81,4 +81,8 @@ func _battery_charge():
 		$t_light.enabled= true
 		$t_light.scale = Vector2(global.battery_health+1,global.battery_health+1)
 		$battery_pack_sprite/tbattery_pack.start()
-	
+
+func _damage(x):
+	global.current_health -= x
+	if global.current_health <= 0:
+		get_tree().change_scene("res://levels/game_over_lava.tscn")

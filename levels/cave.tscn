@@ -434,3 +434,4 @@ position = Vector2( 31, 8.5 )
 shape = SubResource( 14 )
 
 [connection signal="body_entered" from="lava" to="." method="_on_lava_body_entered"]
+[connection signal="body_entered" from="cave_exit" to="." method="_on_cave_exit_body_entered"]

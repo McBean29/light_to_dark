@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Lively Meadow (Victory Fanfare and Song).mp3-e2463155a00d367343e3c3a5b65f1810.mp3str"
+
+[deps]
+
+source_file="res://assets/levels/vault/Lively Meadow (Victory Fanfare and Song).mp3"
+dest_files=[ "res://.import/Lively Meadow (Victory Fanfare and Song).mp3-e2463155a00d367343e3c3a5b65f1810.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

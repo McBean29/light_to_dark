@@ -13,6 +13,8 @@ PWL - cave background (No usage restrictions)
 Derio for the lava-rvier
 KLY for "And Then We Left" (Menu Musi) - https://creativecommons.org/licenses/by/3.0/
 Erbarlow - The Blob - https://creativecommons.org/licenses/by-sa/3.0/
+Matthew Pablo - Lively Meadow (Victory Fanfare and Song) https://creativecommons.org/licenses/by-sa/3.0/
+2DPIXX - Indoor Tileset
 
 ### https://www.theleagueofmoveabletype.com/
 League Gothic font
