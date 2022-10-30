@@ -3,6 +3,7 @@ extends Node2D
 
 func _ready():
 	global.current_level = 3
+	$KinematicBody2D/t_light.enabled=true
 	pass
 
 
