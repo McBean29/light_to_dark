@@ -16,4 +16,4 @@ func _on_StaticBody2D2_body_entered(body):
 
 
 func _on_welcome_body_entered(body):
-	$HUD/pp_intro.popup()
+	$HUD/CanvasLayer/pp_intro.popup()

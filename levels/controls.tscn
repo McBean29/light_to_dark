@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://fonts/LeagueGothic-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://assets/menus/keyboard_button.png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://assets/menus/keyboard_space.png" type="Texture" id=4]
 [ext_resource path="res://levels/controls.gd" type="Script" id=5]
 [ext_resource path="res://assets/pickups/battery_1.png" type="Texture" id=6]
+[ext_resource path="res://assets/menus/blob.png" type="Texture" id=7]
 
 [sub_resource type="DynamicFont" id=1]
 size = 107
@@ -86,6 +87,15 @@ custom_fonts/font = SubResource( 2 )
 text = "- Collect batteries,
 to charge your torch."
 
+[node name="label_enemy" type="Label" parent="."]
+margin_left = 824.0
+margin_top = 388.0
+margin_right = 1031.0
+margin_bottom = 459.0
+custom_fonts/font = SubResource( 2 )
+text = "- Jump on the blobs to 
+defeat them."
+
 [node name="label_spacebar" type="Label" parent="."]
 margin_left = 208.0
 margin_top = 336.0
@@ -116,4 +126,12 @@ margin_top = 289.0
 margin_right = 808.0
 margin_bottom = 329.0
 texture = ExtResource( 6 )
+expand = true
+
+[node name="TextureRect3" type="TextureRect" parent="."]
+margin_left = 768.0
+margin_top = 388.0
+margin_right = 808.0
+margin_bottom = 428.0
+texture = ExtResource( 7 )
 expand = true

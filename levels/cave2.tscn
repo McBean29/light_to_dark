@@ -203,6 +203,7 @@ color = Color( 0, 0, 0, 1 )
 
 [node name="bgm" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 7 )
+autoplay = true
 
 [node name="exit_door" type="Area2D" parent="bgm"]
 position = Vector2( 3, 515 )

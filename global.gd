@@ -11,3 +11,9 @@ func _ready():
 
 func damage_player(attack):
 	current_health -= attack
+	if global.current_health == 3:
+		$gui/AnimatedSprite.frame = 0
+	elif global.current_health == 2:
+		$gui/AnimatedSprite.frame = 1
+	elif global.current_health ==1:
+		$gui/AnimatedSprite.frame = 2

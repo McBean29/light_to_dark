@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/cave_entrance.png-4bd2234c11eb7dfd9d307f5df5ec9ab8.stex"
+path="res://.import/logo180.png-66bbb8b9c14096de69c22cebfd1d0a46.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/levels/level1/cave_entrance.png"
-dest_files=[ "res://.import/cave_entrance.png-4bd2234c11eb7dfd9d307f5df5ec9ab8.stex" ]
+source_file="res://assets/menus/icons/logo180.png"
+dest_files=[ "res://.import/logo180.png-66bbb8b9c14096de69c22cebfd1d0a46.stex" ]
 
 [params]
 
